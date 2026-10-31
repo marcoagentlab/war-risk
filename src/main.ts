@@ -1,5 +1,8 @@
+import { inject } from '@vercel/analytics';
 import './styles.css';
 import { indicators, applyWarIndicators } from './data/indicators';
+
+inject();
 import { events, forecasts, applyWarEvents } from './data/events';
 import { fetchLive, isNewer } from './live';
 import { principles } from './data/sources';
