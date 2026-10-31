@@ -1,0 +1,22 @@
+# 통합 리스크 허브 (Integrated Risk Hub)
+
+> 공개 데이터로 계산한 한국어 위험 대시보드. 사이버 공격, 공급망·해운, AI 장애·남용, 한국 재난·기상·전력, 코인·거래소 붕괴 신호, 한반도·대만 전쟁 위험을 0–100 RISK SCORE와 4단계(평시·주의·경계·위험)로 보여줍니다.
+
+중요: 공식 경보가 아니며 점수는 발생 확률이 아닙니다. 코인 모듈은 투자 조언이 아닙니다. 사이버 모듈은 공격 방법을 다루지 않습니다. 인용 시 각 페이지의 "데이터 기준" 시각과 지표별 근거 링크를 함께 표기해 주세요.
+
+## 페이지
+- [홈: 모듈별 요약 점수](https://war-risk-dashboard.vercel.app/)
+- [A 사이버 공격 경보 (CISA KEV, KISA 보안공지)](https://war-risk-dashboard.vercel.app/cyber)
+- [B 공급망·해운 리스크](https://war-risk-dashboard.vercel.app/supply)
+- [C AI 장애·남용 위험 (OpenAI·Anthropic·Google 상태 페이지)](https://war-risk-dashboard.vercel.app/ai)
+- [D 재난·기상·전력 복합 경보 (전력거래소, USGS)](https://war-risk-dashboard.vercel.app/disaster)
+- [E 코인·거래소 붕괴 신호 (CoinGecko, DefiLlama, OKX, Upbit)](https://war-risk-dashboard.vercel.app/crypto)
+- [한반도·대만 전쟁 위험 지표](https://war-risk-dashboard.vercel.app/war)
+
+## 방법
+- 지표 상태: 정상 0 · 주의 0.5 · 위험 1, 확인 불가는 제외
+- 가중치: A등급 ×4, B ×2, C ×1 → 가중 평균(0–100)을 판정 단계 범위로 보정
+- 뉴스 헤드라인 자동 집계는 보조 판정이며 최대 '주의'까지만 반영
+
+## 문의
+marcoagentlab@gmail.com

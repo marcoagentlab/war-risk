@@ -1,0 +1,843 @@
+{
+  "generated_at": "2026-10-30T15:20:57.095Z",
+  "sources_ok": {
+    "google-news-rss": "2026-10-30T15:20:42.454Z",
+    "google-news-war": "2026-10-30T15:20:43.279Z",
+    "google-cloud-status": "2026-10-30T15:20:43.350Z",
+    "coingecko": "2026-10-30T15:20:43.360Z",
+    "defillama-stablecoins": "2026-10-30T15:20:43.378Z",
+    "cisa-advisories": "2026-10-30T15:20:43.418Z",
+    "cisa-kev": "2026-10-30T15:20:43.442Z",
+    "okx-funding": "2026-10-30T15:20:43.527Z",
+    "usgs-earthquakes": "2026-10-30T15:20:43.727Z",
+    "claude-status": "2026-10-30T15:20:44.333Z",
+    "upbit-kraken-fx": "2026-10-30T15:20:44.398Z",
+    "openai-status": "2026-10-30T15:20:44.490Z",
+    "kisa-boho-rss": "2026-10-30T15:20:45.443Z",
+    "kpx": "2026-10-30T15:20:46.088Z",
+    "war-news": "2026-10-30T15:20:51.557Z",
+    "adiz-news": "2026-10-30T15:20:51.575Z",
+    "polymarket": "2026-10-30T15:20:51.659Z",
+    "state-dept": "2026-10-30T15:20:51.689Z",
+    "yahoo-kospi": "2026-10-30T15:20:51.693Z",
+    "frankfurter-krw": "2026-10-30T15:20:51.713Z",
+    "uk-fcdo": "2026-10-30T15:20:51.973Z",
+    "mnd-tw-daily": "2026-10-30T15:20:52.326Z",
+    "kinmen-matsu-news": "2026-10-30T15:20:52.807Z",
+    "allies-tw-advisory": "2026-10-30T15:20:53.296Z",
+    "mofa-jp": "2026-10-30T15:20:54.887Z",
+    "msa-cn-warnings": "2026-10-30T15:20:57.093Z"
+  },
+  "sources_failed": {},
+  "states": {
+    "A:a-cyber-crisis-level": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%82%AC%EC%9D%B4%EB%B2%84%EC%9C%84%EA%B8%B0%EA%B2%BD%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:31.948Z",
+      "method": "news"
+    },
+    "A:a-ci-incident": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 3건↑ 주의) · 예: 정부, 잇따른 금융·공공 해킹에 민간 기반시설 172곳 긴급 점검 - 조선일보",
+      "evidence_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaGdGcWdkWlJYay1zV3B3N1gybnY3T0UtaEJwZjFSRWU2RXJSZmFxOXVGNXQ2ZlJpbGdUYnJyQjFSVmowRkF1TC1YWUs4aDJqdWRCMENQQTBRbTlTQXNwLUJSczJGOTBnWHY5VF91clpSUURZMF94amVZMGlvWGpnbWlCRQ?oc=5",
+      "checked_at": "2026-10-30T15:20:31.950Z",
+      "method": "news"
+    },
+    "A:a-joint-advisory": {
+      "state": "normal",
+      "summary": "CISA 권고 최근 14일 국가연계/랜섬 관련 0건",
+      "evidence_url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "checked_at": "2026-10-30T15:20:43.418Z",
+      "method": "auto"
+    },
+    "A:a-ransom-kr": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 4건 (기준 3건↑ 주의) · 예: [단독] “파일 이용하려면 비트코인 400만원어치 내라”… 시놀로지 NAS 노린 랜섬웨어 공격에 피해 속수무책 - Chosunbiz",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTG10STRzTkE0OHllMjNLcGNvVHNGLUpGYm1UTVRKSzVWcXpkQ2VBR3ZCdTcyR05ka2RGVzhkY3YtcE5BVDZDMTdiUGI1aUI2UVlsQmRyNmpOdFpINS1PVTk3aFhXcTI2Y2NWSHV4ekhFa1RfNVJhdm9CWWZSY1QzUjJ30gGWAUFVX3lxTE5CVDJLa1BZUWdBbFotTzREOHRaVFRNeUczNnFJZm4zelVhQXgzUXNMejA4ZS1BT0V6T2NzWVhZUl82c29MNlZEbjhldXgtZ1Z0OG9RVHFpZ1EtaGJkZS0wMGstOWhRTjdSdy1hNUs0bHRtbVVJeTlyc1VoWjhxVXc4eDdfeF9NUXhXZjNyZ2dMNnRBUHlRZw?oc=5",
+      "checked_at": "2026-10-30T15:20:32.317Z",
+      "method": "news"
+    },
+    "A:a-sw-supply": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EA%B3%B5%EA%B8%89%EB%A7%9D%20%EA%B3%B5%EA%B2%A9%20%EC%95%85%EC%84%B1%20%ED%8C%A8%ED%82%A4%EC%A7%80%20%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8%20%EC%84%9C%EB%B2%84&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:32.568Z",
+      "method": "news"
+    },
+    "A:a-mass-breach": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 29건 (기준 3건↑ 주의) · 예: 머니투데이 개인정보 1367건 유출…당국 조사 - 애드뉴스인천",
+      "evidence_url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Yb3pzc1V6QUhzQmEwaVFIN0xveTNKRDNORUMxMm44aU5wUXNiMVJjS2FfNVYta2VNRkUta3hTTndCTFNRVmpvajZVZndFeXVxZXBDZXg3TGs0YXdrYlpjckpRUTlHbk9xYUo4?oc=5",
+      "checked_at": "2026-10-30T15:20:32.829Z",
+      "method": "news"
+    },
+    "A:a-ddos-major": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EB%94%94%EB%8F%84%EC%8A%A4%20%EA%B3%B5%EA%B2%A9%20%EC%9E%A5%EC%95%A0&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:33.128Z",
+      "method": "news"
+    },
+    "A:a-phishing-alert": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%8A%A4%EB%AF%B8%EC%8B%B1%20%EC%A3%BC%EC%9D%98%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:33.149Z",
+      "method": "news"
+    },
+    "B:b-chokepoint-closure": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%ED%95%B4%ED%98%91%20%EB%B4%89%EC%87%84%20%EC%9A%B4%ED%95%98%20%ED%86%B5%ED%95%AD%20%EC%A4%91%EB%8B%A8&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:33.192Z",
+      "method": "news"
+    },
+    "B:b-merchant-attack": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 3건↑ 주의) · 예: \"호르무즈 원유 40% 실어 나르는데\"… 이란, 장금상선 타깃 조치에 나포 우려 고조 - 테크데일리",
+      "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JNlJrNVRCV3M3dWFWLS1fQk55T2l0NC1VSXFvUEVXMlJkeWQ5SmQ4NFI2NC02cEZCM3ZSaVlad0dpTXFmNzNPV0NwN3hyYVpRS3k2ZEhpNF9vUWVjTlNKY1NzR3NDVm5YS1d6TThn?oc=5",
+      "checked_at": "2026-10-30T15:20:33.489Z",
+      "method": "news"
+    },
+    "B:b-export-control": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 3건↑ 주의) · 예: 日·獨, AI·로봇·6G 협력 추진…희토류 수출 규제 공동 대응 - 알파경제",
+      "evidence_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CMTNYa3M2bWdKWDFkcVMxeHdNSlBQY0tkdXllMTZEaWk4SGl4WjdDeS16bktIeWVsR3hITWMwSlVkVUh6Smp5dmtMMUtscWw2c05aZTllZEJncWhVeGJZdDNmdlgyR0VCb0JDYURR?oc=5",
+      "checked_at": "2026-10-30T15:20:33.765Z",
+      "method": "news"
+    },
+    "B:b-reroute": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%ED%9D%AC%EB%A7%9D%EB%B4%89%20%EC%9A%B0%ED%9A%8C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:33.770Z",
+      "method": "news"
+    },
+    "B:b-war-risk-premium": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%A0%84%EC%9F%81%EB%B3%B4%ED%97%98%EB%A3%8C%20%ED%95%B4%EC%83%81&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:33.850Z",
+      "method": "news"
+    },
+    "B:b-panama-draft": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%ED%8C%8C%EB%82%98%EB%A7%88%20%EC%9A%B4%ED%95%98%20%ED%86%B5%ED%95%AD%20%EC%A0%9C%ED%95%9C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:34.366Z",
+      "method": "news"
+    },
+    "B:b-port-strike": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 4건 (기준 2건↑ 주의) · 예: 세계 113개 항만서 동시다발 파업·시위 - 해양통신",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0QW9aUExqd1hRRnVPcTE4NVJoOFBXclZCakJOSEFPRkF1QndWWnRiekhhZnVHWExMTmdIbVE1b1ZpZDlSaGFiNmkxM0VoXzljV2wwemJjQlR5ZlNXbGt2bw?oc=5",
+      "checked_at": "2026-10-30T15:20:34.476Z",
+      "method": "news"
+    },
+    "B:b-port-congestion": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%ED%95%AD%EB%A7%8C%20%EC%A0%81%EC%B2%B4%20%EC%B2%B4%EC%84%A0&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:34.878Z",
+      "method": "news"
+    },
+    "B:b-energy-supply": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%9B%90%EC%9C%A0%20LNG%20%EC%88%98%EA%B8%89%20%EC%B0%A8%EC%A7%88&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:34.906Z",
+      "method": "news"
+    },
+    "B:b-chip-lead": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 3건↑ 주의) · 예: 대구 반발에 호남 반도체 전력 공급 차질 빚나…변압기 전용이 변수 - 진일보 | 전남일보",
+      "evidence_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hQlB3Wk1DYjJtbXlSaC0wc0RVbnFEVGZaS0t0Y0Q0RjlFOWRVbWVpNXVfQVExaGdCdzVQLUJMZ2xFeXQ1S2JHWnFDWlNjMHlkNmtSWFNpNVhsQmt1S2hMa05Nc0J3S3lpYXozUkhMOA?oc=5",
+      "checked_at": "2026-10-30T15:20:35.113Z",
+      "method": "news"
+    },
+    "B:b-strait-shipping-tw": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EB%8C%80%EB%A7%8C%ED%95%B4%ED%98%91%20%ED%95%B4%EC%9A%B4%20%EB%B3%B4%ED%97%98%EB%A3%8C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:35.238Z",
+      "method": "news"
+    },
+    "C:pricing_shock": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=AI%20API%20%EC%9A%94%EA%B8%88%20%EC%9D%B8%EC%83%81&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:35.563Z",
+      "method": "news"
+    },
+    "C:ncii_deepfake": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 2건 (기준 3건↑ 주의) · 예: “수동적 대응 관성 과감히 타치, 딥페이크 디지털 성범죄 피해자 보호 백본망 수혈… 충북도, 공식 위탁 체계 가동” - 타임뉴스",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YVnh6TkprNVMtMC1CZ0NVYzRXS18waFU2ZFFWSTNoSVBWdmhjWTJxX05sR0M0YUZmOHFHQVN6Q2VRTVA2cFhXMHBVblplRnl3Q2gwVg?oc=5",
+      "checked_at": "2026-10-30T15:20:35.940Z",
+      "method": "news"
+    },
+    "C:election_scam_deepfake": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EB%94%A5%ED%8E%98%EC%9D%B4%ED%81%AC%20%EC%82%AC%EA%B8%B0%20%EC%84%A0%EA%B1%B0&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:36.109Z",
+      "method": "news"
+    },
+    "C:spend_cap_429": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=AI%20%EC%82%AC%EC%9A%A9%EB%9F%89%20%EC%A0%9C%ED%95%9C%20%EA%B0%95%ED%99%94&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:36.236Z",
+      "method": "news"
+    },
+    "C:ban_criminal": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 3건 (기준 3건↑ 주의) · 예: AI 기본법 시행에도 규제 기준 '모호'…한경협, 개선과제 19건 건의 - 매일일보",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZeFk1bjVObGtXUmRsM1JLT05DRENGeTNIMUk3VkczbjdHd3pZX1RfSkh5RlRWaFVnai1sRzU2Q2ZkZkJoamJCTXZOalZXUjQzR05JQmk5THF0RmlUaEFCTjBBUnk?oc=5",
+      "checked_at": "2026-10-30T15:20:36.304Z",
+      "method": "news"
+    },
+    "C:labeling_duty": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=AI%20%EC%9B%8C%ED%84%B0%EB%A7%88%ED%81%AC%20%ED%91%9C%EC%8B%9C%20%EC%9D%98%EB%AC%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:36.680Z",
+      "method": "news"
+    },
+    "C:guardrail_bypass_press": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=AI%20%ED%83%88%EC%98%A5%20%EA%B0%80%EB%93%9C%EB%A0%88%EC%9D%BC%20%EC%9A%B0%ED%9A%8C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:36.839Z",
+      "method": "news"
+    },
+    "C:weight_leak": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=AI%20%EB%AA%A8%EB%8D%B8%20%EA%B0%80%EC%A4%91%EC%B9%98%20%EC%9C%A0%EC%B6%9C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:36.844Z",
+      "method": "news"
+    },
+    "D:w-rain": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%ED%98%B8%EC%9A%B0%EA%B2%BD%EB%B3%B4%20%ED%98%B8%EC%9A%B0%EC%A3%BC%EC%9D%98%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:37.398Z",
+      "method": "news"
+    },
+    "D:w-snow": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EB%8C%80%EC%84%A4%EA%B2%BD%EB%B3%B4%20%EB%8C%80%EC%84%A4%EC%A3%BC%EC%9D%98%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:37.436Z",
+      "method": "news"
+    },
+    "D:w-typhoon": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 5건 (기준 3건↑ 주의) · 예: 31호 태풍 '인파' 북상…한반도 영향은? - 네이트",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLSTJlOEEtTHYzNWMzVVY5bmRHeUUtZkRfY2VzWWFjZDlHTi0xN0J1RVZfbWcyM0hKYTV5ZlRST2VmTW1KdjMxcmdUTHdEUWRseS0w?oc=5",
+      "checked_at": "2026-10-30T15:20:37.735Z",
+      "method": "news"
+    },
+    "D:w-wind": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EA%B0%95%ED%92%8D%20%ED%92%8D%EB%9E%91%20%ED%8A%B9%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:37.759Z",
+      "method": "news"
+    },
+    "D:w-cold": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 6건 (기준 3건↑ 주의) · 예: 오늘 날씨 뚝…영상인데도 한파주의보 내려진 이유 - 아주경제",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12Q092TThOVGhpcF9oVm1MbERaYXJKMFJ6RVlmUGlBZWNlMFRzMDNxcUExQjBuSmdLQ1hOb1lDRnVBUVA1SDczemNYWVN0Z0ZNeUw5MV9oMXTSAVhBVV95cUxNdkNPdk04TlRoaXBfaFZtTGxEWmFySjBSekVZZlBpQWVjZTBUczAzcXFBMUIwbkpnS0NYTm9ZQ0Z1QVFQNUg3M3pjWFlTdGdGTXlMOTFfaDF0?oc=5",
+      "checked_at": "2026-10-30T15:20:38.381Z",
+      "method": "news"
+    },
+    "D:w-heat": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%ED%8F%AD%EC%97%BC%EA%B2%BD%EB%B3%B4%20%ED%8F%AD%EC%97%BC%EC%A3%BC%EC%9D%98%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:38.563Z",
+      "method": "news"
+    },
+    "D:f-large": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 2건 (기준 2건↑ 주의) · 예: '강풍 타고 확산하는 대형산불'한 총리, \"가을철 산불조심기간 철저히 대비\" - 서울Pn",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzlsZ0FteWU0RjBod0tsaV94VnFLM2RVRGVXNXJzMklSYWRSTFlibElQNlBmMUVYR1VMbVJNYnY2ekYxTFl2UzJKNFZEMWUtYmMxWnF4S1hzQnY3azVLVVNiR0ZhRHJLTnlfU0luYWJwSW5nd0lFQjJWRnRnbmloRWlyQlRTT1EtcXc?oc=5",
+      "checked_at": "2026-10-30T15:20:38.924Z",
+      "method": "news"
+    },
+    "D:f-index": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%82%B0%EB%B6%88%EC%9C%84%ED%97%98%20%EA%B2%BD%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:38.979Z",
+      "method": "news"
+    },
+    "D:f-crisis": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%82%B0%EB%B6%88%20%EC%9C%84%EA%B8%B0%EA%B2%BD%EB%B3%B4%20%EA%B2%BD%EA%B3%84%20%EC%8B%AC%EA%B0%81&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:39.151Z",
+      "method": "news"
+    },
+    "D:fl-warn": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 2건↑ 주의) · 예: 하와이 전역 홍수주의보…수요일 밤까지 폭우·뇌우 우려 - KBFD",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9vam43dkVrb0JXbVFka1VOYllYeTNXQlRpcmZaYlpQY2NEZzA0V1hJVmgtYUZMR1ZpMjBWY05B0gE-QVVfeXFMT29qbjd2RWtvQldtUWRrVU5iWVh5M1dCVGlyZlpiWlBjY0RnMDRXWElWaC1hRkxHVmkyMFZjTkE?oc=5",
+      "checked_at": "2026-10-30T15:20:39.291Z",
+      "method": "news"
+    },
+    "D:fl-landslide": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%82%B0%EC%82%AC%ED%83%9C%20%EA%B2%BD%EB%B3%B4%20%EC%A3%BC%EC%9D%98%EB%B3%B4&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:39.623Z",
+      "method": "news"
+    },
+    "D:c-air": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EA%B3%B5%EC%8A%B5%EA%B2%BD%EB%B3%B4%20%EA%B2%BD%EA%B3%84%EA%B2%BD%EB%B3%B4%20%EB%B0%9C%EB%A0%B9&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:39.650Z",
+      "method": "news"
+    },
+    "D:p-outage": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 2건↑ 주의) · 예: 벡스코, 행사 중 대규모 정전…관람객·참가업체 피해 우려 - 더팩트",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wTHMzM1NyWjNrdDdaeTNGeUFRaXNsVFNWWXZadXNGcjlnM21RTGJUUWpfVzJqMXFadTBiSmp4c3pMTXJ3UUE2Q1NjMTN1MFhObkJidVVn0gFWQVVfeXFMTnBMczMzU3JaM2t0N1p5M0Z5QVFpc2xUU1ZZdlp1c0ZyOWczbVFMYlRRal9XMmoxcVp1MGJKanhzekxNcndRQTZDU2MxM3UwWE5uQmJ1VWc?oc=5",
+      "checked_at": "2026-10-30T15:20:39.810Z",
+      "method": "news"
+    },
+    "D:c-crisis": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%9E%AC%EB%82%9C%20%EC%9C%84%EA%B8%B0%EA%B2%BD%EB%B3%B4%20%EC%8B%AC%EA%B0%81&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:40.208Z",
+      "method": "news"
+    },
+    "D:c-cbs": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 1건 (기준 3건↑ 주의) · 예: [행정안전부] 안전안내문자 90자→157자 확대… 위급·긴급재난문자는 기존 유지 - 커넥트이천",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ydlQ0VGRMWEgyb0VWekZka0MtU3FuREZ2alRTS2stdVFVQUZkMDRpVTB0Q2JKVThabm9BRnVibi1HZTlLQ0dZZndUQnRtSUkzMW5sTzFoOGR2LWlRT1E?oc=5",
+      "checked_at": "2026-10-30T15:20:40.236Z",
+      "method": "news"
+    },
+    "D:c-hq": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%A4%91%EB%8C%80%EB%B3%B8%20%EA%B0%80%EB%8F%99&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:40.451Z",
+      "method": "news"
+    },
+    "E:e-withdraw-halt": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EA%B1%B0%EB%9E%98%EC%86%8C%20%EC%B6%9C%EA%B8%88%20%EC%A4%91%EB%8B%A8&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:40.569Z",
+      "method": "news"
+    },
+    "E:e-protocol-exploit": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EB%94%94%ED%8C%8C%EC%9D%B4%20%ED%95%B4%ED%82%B9%20%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:40.940Z",
+      "method": "news"
+    },
+    "E:e-exchange-hack": {
+      "state": "caution",
+      "summary": "최근 3일 관련 헤드라인 57건 (기준 2건↑ 주의) · 예: 세계 최대 코인거래소 해킹에…국내도 ’출금 주의’ - 연합뉴스TV",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93bm1uc1dvRUxyeWlyYUo2cEpQcWhzMnB5Zy1TUnEzWGNNV2pEem1TemluZ3MyQnhTX0R4RGpybnI4cy12RDM4ek51d2psYjVzMWNhbkZjdzlKblJPMThEeE9aZHkzZXc?oc=5",
+      "checked_at": "2026-10-30T15:20:40.988Z",
+      "method": "news"
+    },
+    "E:e-insolvency": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EA%B1%B0%EB%9E%98%EC%86%8C%20%ED%8C%8C%EC%82%B0%20%ED%9A%8C%EC%83%9D%20%EC%8B%A0%EC%B2%AD&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:41.032Z",
+      "method": "news"
+    },
+    "E:e-reg-shock": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0%20%EC%98%81%EC%97%85%EC%A0%95%EC%A7%80%20%EA%B7%9C%EC%A0%9C&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:41.300Z",
+      "method": "news"
+    },
+    "E:e-kr-exchange-notice": {
+      "state": "normal",
+      "summary": "최근 3일 기준 헤드라인 없음",
+      "evidence_url": "https://news.google.com/search?q=%EC%9C%A0%EC%9D%98%EC%A2%85%EB%AA%A9%20%EC%A7%80%EC%A0%95%20%EC%9E%85%EC%B6%9C%EA%B8%88%20%EC%A4%91%EB%8B%A8%20%EC%97%85%EB%B9%84%ED%8A%B8%20%EB%B9%97%EC%8D%B8&hl=ko&gl=KR&ceid=KR:ko",
+      "checked_at": "2026-10-30T15:20:41.583Z",
+      "method": "news"
+    },
+    "E:e-liquidation-cascade": {
+      "state": "normal",
+      "summary": "최근 3일 관련 헤드라인 2건 (기준 3건↑ 주의) · 예: 에테나(ENA) 하루 만에 13% 폭락! 롱 포지션 청산 폭탄에 0.18달러선 '비상' - 코인리더스",
+      "evidence_url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92bldSWDNERHdiOTQ5QjlCSER3RG1hSVVNdFpCdTNzWjZrU2diYVZHNmIwSEVRR2IxRVdXbTAtUENTeXdubmtpWHF3?oc=5",
+      "checked_at": "2026-10-30T15:20:42.103Z",
+      "method": "news"
+    },
+    "C:google_gemini": {
+      "state": "normal",
+      "summary": "진행 중 Vertex AI/Gemini 사고 없음",
+      "evidence_url": "https://status.cloud.google.com/",
+      "checked_at": "2026-10-30T15:20:43.350Z",
+      "method": "auto"
+    },
+    "E:e-stable-depeg": {
+      "state": "normal",
+      "summary": "현재가 USDT $0.999028 · USDC $0.999654 · DAI $1 (기준 $0.98)",
+      "evidence_url": "https://www.coingecko.com/en/categories/stablecoins",
+      "checked_at": "2026-10-30T15:20:43.360Z",
+      "method": "auto"
+    },
+    "E:e-stable-supply": {
+      "state": "normal",
+      "summary": "스테이블코인 총 발행량 $300.6B · 한 달 전 대비 -2.1%",
+      "evidence_url": "https://defillama.com/stablecoins",
+      "checked_at": "2026-10-30T15:20:43.378Z",
+      "method": "auto"
+    },
+    "A:a-kev-weekly": {
+      "state": "normal",
+      "summary": "최근 7일 KEV 신규 8건 · 직전 12주 주간 중앙값 8.5건 (×0.9)",
+      "evidence_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "checked_at": "2026-10-30T15:20:43.442Z",
+      "method": "auto"
+    },
+    "A:a-kev-domestic": {
+      "state": "danger",
+      "summary": "국내 보급 제품 신규 등재 4건: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software, Broadcom VMware ESX, Adobe Commerce and Magento, Google Brotli — 패치 확인 권장",
+      "evidence_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "checked_at": "2026-10-30T15:20:43.442Z",
+      "method": "auto"
+    },
+    "A:a-ransom-stats": {
+      "state": "normal",
+      "summary": "최근 30일 KEV 중 랜섬웨어 악용 확인 0건 (대리 지표)",
+      "evidence_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "checked_at": "2026-10-30T15:20:43.442Z",
+      "method": "auto"
+    },
+    "D:q-flash": {
+      "state": "normal",
+      "summary": "최근 7일 한반도 주변 M2 이상 없음 (USGS)",
+      "evidence_url": "https://earthquake.usgs.gov/earthquakes/map/",
+      "checked_at": "2026-10-30T15:20:43.443Z",
+      "method": "auto"
+    },
+    "D:q-eew": {
+      "state": "normal",
+      "summary": "최근 7일 조기경보 기준(M5) 이상 지진 없음 (USGS 대리 확인)",
+      "evidence_url": "https://www.weather.go.kr/w/eqk-vol/search/korea.do",
+      "checked_at": "2026-10-30T15:20:43.443Z",
+      "method": "auto"
+    },
+    "D:q-freq": {
+      "state": "normal",
+      "summary": "최근 30일 한반도 주변 M2 이상 0건 (USGS 집계, 기상청보다 적게 잡힘)",
+      "evidence_url": "https://earthquake.usgs.gov/earthquakes/map/",
+      "checked_at": "2026-10-30T15:20:43.443Z",
+      "method": "auto"
+    },
+    "E:e-funding-extreme": {
+      "state": "normal",
+      "summary": "BTC 무기한 펀딩비 0.0100% (OKX, 극단 기준 ±0.05%) · 방향 해석·매매 신호 아님",
+      "evidence_url": "https://www.okx.com/trade-market/funding/swap",
+      "checked_at": "2026-10-30T15:20:43.527Z",
+      "method": "auto"
+    },
+    "D:q-tsunami": {
+      "state": "normal",
+      "summary": "최근 48시간 주변 해역 지진해일 가능 지진 없음 (USGS)",
+      "evidence_url": "https://earthquake.usgs.gov/earthquakes/map/",
+      "checked_at": "2026-10-30T15:20:43.727Z",
+      "method": "auto"
+    },
+    "C:anthropic_api": {
+      "state": "normal",
+      "summary": "Anthropic Claude 상태: All Systems Operational",
+      "evidence_url": "https://status.claude.com",
+      "checked_at": "2026-10-30T15:20:44.333Z",
+      "method": "auto"
+    },
+    "E:e-kimchi-premium": {
+      "state": "normal",
+      "summary": "원화 프리미엄 +0.83% (업비트 vs 크라켄·환율 1338원) · 차익거래 안내 아님",
+      "evidence_url": "https://upbit.com/exchange?code=CRIX.UPBIT.KRW-BTC",
+      "checked_at": "2026-10-30T15:20:44.398Z",
+      "method": "auto"
+    },
+    "C:openai_api": {
+      "state": "caution",
+      "summary": "OpenAI 상태: Partial System Degradation · 진행 중: Elevated errors for GPT Image 2 API image edits",
+      "evidence_url": "https://status.openai.com",
+      "checked_at": "2026-10-30T15:20:44.490Z",
+      "method": "auto"
+    },
+    "C:image_gen_api": {
+      "state": "caution",
+      "summary": "OpenAI 이미지·영상 구성요소 2개 중 이상 1개",
+      "evidence_url": "https://status.openai.com",
+      "checked_at": "2026-10-30T15:20:44.490Z",
+      "method": "auto"
+    },
+    "A:a-oob-patch": {
+      "state": "normal",
+      "summary": "KISA 보안공지 최근 7일 10건 · 긴급/악용 언급 0건",
+      "evidence_url": "https://www.boho.or.kr/kr/bbs/list.do?menuNo=205020&bbsId=B0000133",
+      "checked_at": "2026-10-30T15:20:45.442Z",
+      "method": "auto"
+    },
+    "D:p-stage": {
+      "state": "normal",
+      "summary": "실시간 공급예비력 32,444MW (정상) · 비상단계 기준 5,500MW",
+      "evidence_url": "https://www.kpx.or.kr/",
+      "checked_at": "2026-10-30T15:20:46.088Z",
+      "method": "auto"
+    },
+    "D:p-rate": {
+      "state": "normal",
+      "summary": "실시간 공급예비율 55.32% · 현재부하 58,650MW / 공급능력 91,094MW",
+      "evidence_url": "https://www.kpx.or.kr/",
+      "checked_at": "2026-10-30T15:20:46.088Z",
+      "method": "auto"
+    },
+    "D:p-forecast": {
+      "state": "normal",
+      "summary": "오늘 최대부하 전망 60,400MW · 예비력 32,145MW (53%)",
+      "evidence_url": "https://www.kpx.or.kr/",
+      "checked_at": "2026-10-30T15:20:46.088Z",
+      "method": "auto"
+    }
+  },
+  "events": [
+    {
+      "module": "C",
+      "indicator": "openai_api",
+      "date": "2026-10-30T14:35:28Z",
+      "title": "OpenAI 장애: Elevated errors for GPT Image 2 API image edits",
+      "url": "https://status.openai.com",
+      "source": "OpenAI",
+      "level": "caution"
+    },
+    {
+      "module": "B",
+      "indicator": "b-port-strike",
+      "date": "2026-10-30T10:43:56.000Z",
+      "title": "22개국 113개 항만 파업: 함부르크·르아브르·피레우스 영향 - 뉴스 및 통계 - IndexBox",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeXMtOGo3RG1UYTlMYmU2eWRMVUt0Skx1NDNkS0ttTkFVU1V6QllONElHQVRacjh6aHMzcVk1RjJObXpSRlFJaXl3QmlPSTdfcWRjODlWM05oeU1JWnFFX1B1WFRFeXE1TUJwRjNkN2lpa1lGMkFCaXlKQlhVOEZabUxZeEtPYml4d2RtSmt2Vk9fYko1ZHdRZDFoNXdXRmpDdnI5U1lR?oc=5",
+      "source": "IndexBox",
+      "level": "caution"
+    },
+    {
+      "module": "B",
+      "indicator": "b-port-strike",
+      "date": "2026-10-30T10:32:32.000Z",
+      "title": "세계 113개 항만서 동시다발 파업·시위 - 해양통신",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0QW9aUExqd1hRRnVPcTE4NVJoOFBXclZCakJOSEFPRkF1QndWWnRiekhhZnVHWExMTmdIbVE1b1ZpZDlSaGFiNmkxM0VoXzljV2wwemJjQlR5ZlNXbGt2bw?oc=5",
+      "source": "해양통신",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-mass-breach",
+      "date": "2026-10-30T08:14:00.000Z",
+      "title": "머니투데이 개인정보 1367건 유출…당국 조사 - 애드뉴스인천",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5Yb3pzc1V6QUhzQmEwaVFIN0xveTNKRDNORUMxMm44aU5wUXNiMVJjS2FfNVYta2VNRkUta3hTTndCTFNRVmpvajZVZndFeXVxZXBDZXg3TGs0YXdrYlpjckpRUTlHbk9xYUo4?oc=5",
+      "source": "애드뉴스인천",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-ransom-kr",
+      "date": "2026-10-30T07:10:00.000Z",
+      "title": "[단독] “파일 이용하려면 비트코인 400만원어치 내라”… 시놀로지 NAS 노린 랜섬웨어 공격에 피해 속수무책 - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTG10STRzTkE0OHllMjNLcGNvVHNGLUpGYm1UTVRKSzVWcXpkQ2VBR3ZCdTcyR05ka2RGVzhkY3YtcE5BVDZDMTdiUGI1aUI2UVlsQmRyNmpOdFpINS1PVTk3aFhXcTI2Y2NWSHV4ekhFa1RfNVJhdm9CWWZSY1QzUjJ30gGWAUFVX3lxTE5CVDJLa1BZUWdBbFotTzREOHRaVFRNeUczNnFJZm4zelVhQXgzUXNMejA4ZS1BT0V6T2NzWVhZUl82c29MNlZEbjhldXgtZ1Z0OG9RVHFpZ1EtaGJkZS0wMGstOWhRTjdSdy1hNUs0bHRtbVVJeTlyc1VoWjhxVXc4eDdfeF9NUXhXZjNyZ2dMNnRBUHlRZw?oc=5",
+      "source": "Chosunbiz",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-ransom-kr",
+      "date": "2026-10-30T07:05:47.000Z",
+      "title": "한국데이터복구센터, 'LOCK3D' 확장자 랜섬웨어 피해 복구 대응 - 얼리어답터뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFA3UkV6bjMxQ1BrSXh6akFoOG5oSUN0OGpYaENkSzhlVTY3d2hRdDlZeTNjYk5LM2s4YWJyVWRlYzhlbTdoZXFTNkN3?oc=5",
+      "source": "얼리어답터뉴스",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-mass-breach",
+      "date": "2026-10-30T06:40:00.000Z",
+      "title": "G마켓, 개인정보 유출 정황에 당국 신고 - Chosunbiz",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWmxmT2JGOXFIYTJYbmtKZlFleDFDNExtSUVFdElMd2xBMkF5eUhBbS1zNG9aaUE1S2w3WmJoVFRhSHVzRlNvTTR1V21SRmZLMjIwMllxSXVFYXVabDM0dlUwb2hGeTI5TFBEc19nQlEzVE5wa1VRaW5DM1Q5dXdOQ18wamNaOFdFVU55aWg0ZnpXMUZ4NGo4NEl0RVM5UdIBngFBVV95cUxPWmxmT2JGOXFIYTJYbmtKZlFleDFDNExtSUVFdElMd2xBMkF5eUhBbS1zNG9aaUE1S2w3WmJoVFRhSHVzRlNvTTR1V21SRmZLMjIwMllxSXVFYXVabDM0dlUwb2hGeTI5TFBEc19nQlEzVE5wa1VRaW5DM1Q5dXdOQ18wamNaOFdFVU55aWg0ZnpXMUZ4NGo4NEl0RVM5UQ?oc=5",
+      "source": "Chosunbiz",
+      "level": "caution"
+    },
+    {
+      "module": "E",
+      "indicator": "e-exchange-hack",
+      "date": "2026-10-30T03:07:00.000Z",
+      "title": "세계 최대 코인거래소 해킹에…국내도 ’출금 주의’ - 연합뉴스TV",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93bm1uc1dvRUxyeWlyYUo2cEpQcWhzMnB5Zy1TUnEzWGNNV2pEem1TemluZ3MyQnhTX0R4RGpybnI4cy12RDM4ek51d2psYjVzMWNhbkZjdzlKblJPMThEeE9aZHkzZXc?oc=5",
+      "source": "연합뉴스TV",
+      "level": "caution"
+    },
+    {
+      "module": "D",
+      "indicator": "c-cbs",
+      "date": "2026-10-30T02:32:21.000Z",
+      "title": "[행정안전부] 안전안내문자 90자→157자 확대… 위급·긴급재난문자는 기존 유지 - 커넥트이천",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ydlQ0VGRMWEgyb0VWekZka0MtU3FuREZ2alRTS2stdVFVQUZkMDRpVTB0Q2JKVThabm9BRnVibi1HZTlLQ0dZZndUQnRtSUkzMW5sTzFoOGR2LWlRT1E?oc=5",
+      "source": "커넥트이천",
+      "level": "info"
+    },
+    {
+      "module": "E",
+      "indicator": "e-exchange-hack",
+      "date": "2026-10-30T02:30:32.000Z",
+      "title": "국내외 가상자산거래소 노린 해킹, 금전 피해로 이어졌다 - 보안뉴스",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmaGppY3dualFfd3hrOWRnSEk5dFhRMURZLXhjOFotel9Ec0U0R2hNRVJkMU9CXzVNTUN2Z0Z0WHZFMFBVUjBET2F4VTc1aERLN1J4eXRhQUctTEZ4SGIyUHF5VTE5d25NQi1r?oc=5",
+      "source": "보안뉴스",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-oob-patch",
+      "date": "2026-10-30T00:00:00.000Z",
+      "title": "KISA 보안공지: 다우기술 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72261",
+      "source": "KISA",
+      "level": "info"
+    },
+    {
+      "module": "A",
+      "indicator": "a-oob-patch",
+      "date": "2026-10-30T00:00:00.000Z",
+      "title": "KISA 보안공지: Sophos 제품 보안 업데이트 권고",
+      "url": "https://www.boho.or.kr/kr/bbs/view.do?searchCnd=&bbsId=B0000133&searchWrd=&menuNo=205020&pageIndex=1&categoryCode=&nttId=72260",
+      "source": "KISA",
+      "level": "info"
+    },
+    {
+      "module": "E",
+      "indicator": "e-liquidation-cascade",
+      "date": "2026-10-29T22:52:00.000Z",
+      "title": "에테나(ENA) 하루 만에 13% 폭락! 롱 포지션 청산 폭탄에 0.18달러선 '비상' - 코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE92bldSWDNERHdiOTQ5QjlCSER3RG1hSVVNdFpCdTNzWjZrU2diYVZHNmIwSEVRR2IxRVdXbTAtUENTeXdubmtpWHF3?oc=5",
+      "source": "코인리더스",
+      "level": "info"
+    },
+    {
+      "module": "E",
+      "indicator": "e-liquidation-cascade",
+      "date": "2026-10-29T22:37:00.000Z",
+      "title": "이더리움에 '삼중 악재' 덮쳤다…바이낸스 해킹 공포·청산 폭탄·ETF 자금 이탈 - 코인리더스",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1TV2d1MzFELXN6V04xa25UWW85SHBqYTJMby16ZkFIZmExYVI5c3YyQ2FRSEpwVHROTzJwNGozOGZMVUxVRVhOZWpR?oc=5",
+      "source": "코인리더스",
+      "level": "info"
+    },
+    {
+      "module": "D",
+      "indicator": "w-typhoon",
+      "date": "2026-10-29T21:15:00.000Z",
+      "title": "31호 태풍 '인파' 북상…한반도 영향은? - 네이트",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLSTJlOEEtTHYzNWMzVVY5bmRHeUUtZkRfY2VzWWFjZDlHTi0xN0J1RVZfbWcyM0hKYTV5ZlRST2VmTW1KdjMxcmdUTHdEUWRseS0w?oc=5",
+      "source": "네이트",
+      "level": "caution"
+    },
+    {
+      "module": "C",
+      "indicator": "ncii_deepfake",
+      "date": "2026-10-29T08:54:11.000Z",
+      "title": "중고생 한 반에 한 명꼴로 들어가봤다…딥페이크 성착취방 불안감 고조 - 매일경제",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFA4RzlCeEYtMGgzYVdQUGZqd0JLODF6a1l0NnZac1c5ZDRBTVd1UkFBYm15Y0hldWI1UlhxcTFpMDZMR2JGazQ3UWg5WnFDZVh6UVJBVA?oc=5",
+      "source": "매일경제",
+      "level": "info"
+    },
+    {
+      "module": "C",
+      "indicator": "ban_criminal",
+      "date": "2026-10-29T08:16:28.000Z",
+      "title": "AI 기본법 시행에도 규제 기준 '모호'…한경협, 개선과제 19건 건의 - 매일일보",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBZeFk1bjVObGtXUmRsM1JLT05DRENGeTNIMUk3VkczbjdHd3pZX1RfSkh5RlRWaFVnai1sRzU2Q2ZkZkJoamJCTXZOalZXUjQzR05JQmk5THF0RmlUaEFCTjBBUnk?oc=5",
+      "source": "매일일보",
+      "level": "caution"
+    },
+    {
+      "module": "D",
+      "indicator": "p-outage",
+      "date": "2026-10-29T07:47:00.000Z",
+      "title": "벡스코, 행사 중 대규모 정전…관람객·참가업체 피해 우려 - 더팩트",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wTHMzM1NyWjNrdDdaeTNGeUFRaXNsVFNWWXZadXNGcjlnM21RTGJUUWpfVzJqMXFadTBiSmp4c3pMTXJ3UUE2Q1NjMTN1MFhObkJidVVn0gFWQVVfeXFMTnBMczMzU3JaM2t0N1p5M0Z5QVFpc2xUU1ZZdlp1c0ZyOWczbVFMYlRRal9XMmoxcVp1MGJKanhzekxNcndRQTZDU2MxM3UwWE5uQmJ1VWc?oc=5",
+      "source": "더팩트",
+      "level": "info"
+    },
+    {
+      "module": "C",
+      "indicator": "ban_criminal",
+      "date": "2026-10-29T04:57:44.000Z",
+      "title": "AI 기본법 시행 9개월... 기업들 \"규제 대상·책임 범위 명확히 해야\" - 반론보도닷컴",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqWXQyVUJZbEhQTFdjX2cxWFhHYjdyU1RTZjZFdzZCTklnUkRidEFMU3VHcVhYTGxfMXJsQi1aWmRjVVd6TnJDTHZiR1h1QXBoTV9iZlRJMHh1TFlYMXRHdVBpZDJpZmZYUDI4ZNIBcEFVX3lxTFBWT2R1UTRmYUYzbTNEb29kVmh4dklWOXppUFZuZUtpbHZYb0lSZzZ5bmx5bWNBeF9KUUlfMHpHVmVNVzl3bW1iaVJwRjEzVkhBS1RtbXV1SFRTTWt2NVdkSTN6eGUxcURPUzl2X0JvRkc?oc=5",
+      "source": "반론보도닷컴",
+      "level": "caution"
+    },
+    {
+      "module": "W",
+      "indicator": "news",
+      "date": "2026-10-29T04:24:42.000Z",
+      "title": "한국 합참 \"북한, 동해상으로 단거리 탄도미사일 10여 발 발사\" - VOA 한국어 홈페이지",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44TGFrRUdnLXVJVGpkNzZqSTBRWUQ1WUpWU1NnRjNjN1R3VkVIQkNydWVDZExQX1dySXNzUnBIaTlpV19UOHMycFZJZk93V3VWMTBoX0FNWG1GOEE1T3FpY2wxeHcwbDRuMEw2a0M4SExXMEXSAXZBVV95cUxOYVk5cEF1UkQtWDBQZXBCdENPeXNqRVpybC1NNTBhRUZaU3FBN3ZoZmNrTFhxZTVIejkwRElIdW1hSUFqQmFmSnVWVV9jZ2lEUTduY3UzeHQ5bWd4WUhxWEZTWk02d0hTY21kazRJN2J6NnhmV1Z3?oc=5",
+      "source": "VOA 한국어 홈페이지",
+      "level": "info"
+    },
+    {
+      "module": "W",
+      "indicator": "news",
+      "date": "2026-10-29T03:49:35.000Z",
+      "title": "합참 \"北, 동해상 탄도미사일 10여발 발사\" - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNT2IxaHVuei1YTWR3ME9DSFJqajVmS2tISjJkSjl5Rml5NG1DTDF2Ql92VWRIQ205NnFwTnhoX21uSUxYeTNEXzA4ZjJPa2dXSWsydng3WGloWlJpUzB2ZmdJdDR3dVBPYlJsbngtelZuWUV6c0VnSUZsTHZ0dkkwa2NzWkZLWGgyTUhyWWI2S19Ddw?oc=5",
+      "source": "조선일보",
+      "level": "info"
+    },
+    {
+      "module": "W",
+      "indicator": "news",
+      "date": "2026-10-29T03:40:41.000Z",
+      "title": "北, 국방부 회담 제안 6일 만에 탄도미사일 10여 발 발사‥\"250km 비행\" - MBC 뉴스",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sS1BPQm9qUmluNDduTFRZa2ZMV2tvNHFkbmxzdTUxaEcxUUV3LW9TSkFjNmIzM2Q1Q1Job2ZZMDdtazZyZXRWaXFxM09vYm9LSEJTbEQ5Ung3RDRYMFRZWHNfeU9ZcFBvZWltLTBwdWhhcWhqZ2RJT9IBeEFVX3lxTE55RG9VNzN5VW1IdVlwVExtUDZ1Ui11aHdrTkhMU3RKMW4yQW9VY1M4RU5pa3B1Uy03c192dzM2RUhrNFZZVlIwdFdxeWFRTTJUWFhkUlQxMUw5czJTNUdHZ3BHX0JtZzNQeFJEeUI5ajRoNGRCWW1Ebg?oc=5",
+      "source": "MBC 뉴스",
+      "level": "info"
+    },
+    {
+      "module": "D",
+      "indicator": "w-typhoon",
+      "date": "2026-10-29T03:07:07.000Z",
+      "title": "슈퍼태풍으로 커졌던 ‘참피’ 북상…주말 제주·남부 최대 150㎜ 물폭탄 - 쿠키뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBUWHlrQlNqcHdEdlI1Zi0wSzl0eUNFWWdabTNEMXgzZFlZeHNKOGlpV3RPREp6MEJjQU1zaFlSQ2JPRnkxUFlPN2pGandwbk9yNWl2akJETnFfRDY4QkRsV2hsYw?oc=5",
+      "source": "쿠키뉴스",
+      "level": "caution"
+    },
+    {
+      "module": "D",
+      "indicator": "f-large",
+      "date": "2026-10-29T02:00:32.000Z",
+      "title": "'강풍 타고 확산하는 대형산불'한 총리, \"가을철 산불조심기간 철저히 대비\" - 서울Pn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRzlsZ0FteWU0RjBod0tsaV94VnFLM2RVRGVXNXJzMklSYWRSTFlibElQNlBmMUVYR1VMbVJNYnY2ekYxTFl2UzJKNFZEMWUtYmMxWnF4S1hzQnY3azVLVVNiR0ZhRHJLTnlfU0luYWJwSW5nd0lFQjJWRnRnbmloRWlyQlRTT1EtcXc?oc=5",
+      "source": "서울Pn",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-kev-domestic",
+      "date": "2026-10-29T00:00:00.000Z",
+      "title": "KEV 등재: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software (CVE-2026-76418) — 패치 확인",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+      "source": "CISA KEV",
+      "level": "caution"
+    },
+    {
+      "module": "C",
+      "indicator": "ncii_deepfake",
+      "date": "2026-10-28T23:28:14.000Z",
+      "title": "“수동적 대응 관성 과감히 타치, 딥페이크 디지털 성범죄 피해자 보호 백본망 수혈… 충북도, 공식 위탁 체계 가동” - 타임뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YVnh6TkprNVMtMC1CZ0NVYzRXS18waFU2ZFFWSTNoSVBWdmhjWTJxX05sR0M0YUZmOHFHQVN6Q2VRTVA2cFhXMHBVblplRnl3Q2gwVg?oc=5",
+      "source": "타임뉴스",
+      "level": "info"
+    },
+    {
+      "module": "B",
+      "indicator": "b-chip-lead",
+      "date": "2026-10-28T07:48:08.000Z",
+      "title": "대구 반발에 호남 반도체 전력 공급 차질 빚나…변압기 전용이 변수 - 진일보 | 전남일보",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5hQlB3Wk1DYjJtbXlSaC0wc0RVbnFEVGZaS0t0Y0Q0RjlFOWRVbWVpNXVfQVExaGdCdzVQLUJMZ2xFeXQ1S2JHWnFDWlNjMHlkNmtSWFNpNVhsQmt1S2hMa05Nc0J3S3lpYXozUkhMOA?oc=5",
+      "source": "진일보 | 전남일보",
+      "level": "info"
+    },
+    {
+      "module": "B",
+      "indicator": "b-export-control",
+      "date": "2026-10-28T06:22:23.000Z",
+      "title": "日·獨, AI·로봇·6G 협력 추진…희토류 수출 규제 공동 대응 - 알파경제",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CMTNYa3M2bWdKWDFkcVMxeHdNSlBQY0tkdXllMTZEaWk4SGl4WjdDeS16bktIeWVsR3hITWMwSlVkVUh6Smp5dmtMMUtscWw2c05aZTllZEJncWhVeGJZdDNmdlgyR0VCb0JDYURR?oc=5",
+      "source": "알파경제",
+      "level": "info"
+    },
+    {
+      "module": "A",
+      "indicator": "a-ci-incident",
+      "date": "2026-10-28T05:55:55.000Z",
+      "title": "정부, 잇따른 금융·공공 해킹에 민간 기반시설 172곳 긴급 점검 - 조선일보",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaGdGcWdkWlJYay1zV3B3N1gybnY3T0UtaEJwZjFSRWU2RXJSZmFxOXVGNXQ2ZlJpbGdUYnJyQjFSVmowRkF1TC1YWUs4aDJqdWRCMENQQTBRbTlTQXNwLUJSczJGOTBnWHY5VF91clpSUURZMF94amVZMGlvWGpnbWlCRQ?oc=5",
+      "source": "조선일보",
+      "level": "info"
+    },
+    {
+      "module": "D",
+      "indicator": "fl-warn",
+      "date": "2026-10-28T04:06:00.000Z",
+      "title": "하와이 전역 홍수주의보…수요일 밤까지 폭우·뇌우 우려 - KBFD",
+      "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE9vam43dkVrb0JXbVFka1VOYllYeTNXQlRpcmZaYlpQY2NEZzA0V1hJVmgtYUZMR1ZpMjBWY05B0gE-QVVfeXFMT29qbjd2RWtvQldtUWRrVU5iWVh5M1dCVGlyZlpiWlBjY0RnMDRXWElWaC1hRkxHVmkyMFZjTkE?oc=5",
+      "source": "KBFD",
+      "level": "info"
+    },
+    {
+      "module": "D",
+      "indicator": "w-cold",
+      "date": "2026-10-28T01:57:14.000Z",
+      "title": "[강원날씨]한파주의보 해제됐지만 일교차 커 - 강원일보",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1OXZPZ01tUjhVRGpYTW1oVFJlM1JKc2JDMkRXN2xxRUZ4T3dBcWlkS1VWSi1JZG5SbGZ2Zk1nSlh3ekw3Y0U5d1E4UDFldldtRl9CVnFfRXNhaXM?oc=5",
+      "source": "강원일보",
+      "level": "caution"
+    },
+    {
+      "module": "A",
+      "indicator": "a-kev-domestic",
+      "date": "2026-10-28T00:00:00.000Z",
+      "title": "KEV 등재: Broadcom VMware ESX (CVE-2026-41709) — 패치 확인",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+      "source": "CISA KEV",
+      "level": "caution"
+    },
+    {
+      "module": "D",
+      "indicator": "w-cold",
+      "date": "2026-10-27T23:25:35.000Z",
+      "title": "오늘 날씨 뚝…영상인데도 한파주의보 내려진 이유 - 아주경제",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12Q092TThOVGhpcF9oVm1MbERaYXJKMFJ6RVlmUGlBZWNlMFRzMDNxcUExQjBuSmdLQ1hOb1lDRnVBUVA1SDczemNYWVN0Z0ZNeUw5MV9oMXTSAVhBVV95cUxNdkNPdk04TlRoaXBfaFZtTGxEWmFySjBSekVZZlBpQWVjZTBUczAzcXFBMUIwbkpnS0NYTm9ZQ0Z1QVFQNUg3M3pjWFlTdGdGTXlMOTFfaDF0?oc=5",
+      "source": "아주경제",
+      "level": "caution"
+    },
+    {
+      "module": "D",
+      "indicator": "f-large",
+      "date": "2026-10-27T21:30:47.000Z",
+      "title": "‘대형산불 우려→산림청장 직접 지휘’…박은식 산림청장, 가을철 산불대책 발표 - 쿠키뉴스",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBYN3NVRk9tZUpzQ3kzdHBYUnZwc3FRNWxMRkloMjBtOVpuTzdUT2JZQkFCR0p6U0RLZ0tnZ2kwNFV5SkFLVkJTOTJtSzF1c095eVZhcVhrZDF0UFNIWTRpb0lXSQ?oc=5",
+      "source": "쿠키뉴스",
+      "level": "caution"
+    },
+    {
+      "module": "B",
+      "indicator": "b-merchant-attack",
+      "date": "2026-10-27T16:49:48.000Z",
+      "title": "\"호르무즈 원유 40% 실어 나르는데\"… 이란, 장금상선 타깃 조치에 나포 우려 고조 - 테크데일리",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JNlJrNVRCV3M3dWFWLS1fQk55T2l0NC1VSXFvUEVXMlJkeWQ5SmQ4NFI2NC02cEZCM3ZSaVlad0dpTXFmNzNPV0NwN3hyYVpRS3k2ZEhpNF9vUWVjTlNKY1NzR3NDVm5YS1d6TThn?oc=5",
+      "source": "테크데일리",
+      "level": "info"
+    },
+    {
+      "module": "A",
+      "indicator": "a-kev-domestic",
+      "date": "2026-10-27T00:00:00.000Z",
+      "title": "KEV 등재: Adobe Commerce and Magento (CVE-2026-48356) — 패치 확인",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+      "source": "CISA KEV",
+      "level": "caution"
+    }
+  ]
+}

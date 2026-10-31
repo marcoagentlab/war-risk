@@ -1,0 +1,14 @@
+# dependencies and build output
+node_modules/
+dist/
+dist-single/
+.vercel/
+
+# local env — commit only .env.example
+.env
+.env.*
+!.env.example
+
+# logs and OS
+*.log
+.DS_Store

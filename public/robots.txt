@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://war-risk-dashboard.vercel.app/sitemap.xml

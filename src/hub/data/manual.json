@@ -1,0 +1,1 @@
+{ "_note": "운영자가 직접 확인한 판정. key는 module:id. 예: \"A:a-ci-incident\": {\"state\":\"danger\",\"summary\":\"...\",\"evidence_url\":\"https://...\",\"checked_at\":\"2026-10-30T21:00:00+09:00\"}", "overrides": {} }

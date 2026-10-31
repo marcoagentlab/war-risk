@@ -1,0 +1,493 @@
+{
+  "generated_at": "2026-10-30T15:20:57.095Z",
+  "indicators": {
+    "neo": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%A3%BC%ED%95%9C%EB%AF%B8%EA%B5%B0%20%EA%B0%80%EC%A1%B1%20%EB%8C%80%ED%94%BC%20%EB%AA%85%EB%A0%B9&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:46.098Z",
+      "method": "news"
+    },
+    "mobilization": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EB%B6%81%ED%95%9C%20%EB%B3%91%EB%A0%A5%20%EB%8F%99%EC%9B%90%20%EC%A0%84%EC%A7%84%20%EB%B0%B0%EC%B9%98&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:46.458Z",
+      "method": "news"
+    },
+    "civil-defense": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EA%B3%B5%EC%8A%B5%EA%B2%BD%EB%B3%B4%20%EA%B2%BD%EA%B3%84%EA%B2%BD%EB%B3%B4%20%EB%B0%9C%EB%A0%B9%20%EC%8B%A4%EC%A0%9C&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:46.803Z",
+      "method": "news"
+    },
+    "embassy": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EB%8C%80%EC%82%AC%EA%B4%80%20%EC%B2%A0%EC%88%98%20%EC%84%9C%EC%9A%B8%20%EC%9D%B8%EC%9B%90%20%EA%B0%90%EC%B6%95&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:46.807Z",
+      "method": "news"
+    },
+    "watchcon": {
+      "status": "normal",
+      "summary": "최근 14일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%9B%8C%EC%B9%98%EC%BD%98%20%EC%83%81%ED%96%A5&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:47.044Z",
+      "method": "news"
+    },
+    "artillery": {
+      "status": "normal",
+      "summary": "최근 7일 관련 보도 1건(기준 2건↑ 주의, 자동 집계) · 예: [단독] 서해 어선 철수와 애기봉 포문 개방에 접경지 공포 -> 서해 뒤흔든 연쇄 포격과 미사일 발사에 충돌 위험 최고조 > 전쟁 예측 10대 군사 지표 대해부와 전면전의 실질 가능성 - 경제투데이",
+      "source": {
+        "label": "경제투데이",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFUXYyejZ5VVlFejVVTVdpcVI1eHZJSmF6M1RUWG1pTkQzdUJPcVBmb0ZFLVBVUENWVFZuNXlKVHZ5ZVJkWTFhcDlPRnlGcktGVzlSMHN1dTJnVW5TT3BidE8xRm5OTWph?oc=5"
+      },
+      "checkedAt": "2026-10-30T15:20:47.374Z",
+      "method": "news"
+    },
+    "dmz-incident": {
+      "status": "caution",
+      "summary": "최근 30일 관련 보도 4건(기준 1건↑ 주의, 자동 집계) · 예: UN서 벌어진 남북한 ‘설전’…UN 대사, ‘DMZ 지뢰’ 사과 요구에 북한 발끈 - KBS 뉴스",
+      "source": {
+        "label": "KBS 뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SUkFWSjNiMDRndElqZk9sejhxTHRhVTJwMkVEOS1kbG82TWdRdWRiei1OamxseVhnbjdhOUlaSDludHZlVF9mamJ2N3RDeEF2ODNodGVIVjVFREU?oc=5"
+      },
+      "checkedAt": "2026-10-30T15:20:47.411Z",
+      "method": "news"
+    },
+    "nll": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%84%9C%ED%95%B4%20NLL%20%EC%B9%A8%EB%B2%94%20%EA%B2%BD%EA%B3%A0%EC%82%AC%EA%B2%A9&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:47.620Z",
+      "method": "news"
+    },
+    "mdl": {
+      "status": "caution",
+      "summary": "최근 14일 관련 보도 8건(기준 1건↑ 주의, 자동 집계) · 예: 北, 사흘새 60회 경고 사격 받고도 MDL 계속 넘어왔다 - 조선일보",
+      "source": {
+        "label": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSWh4d0NzY1NEVFZGcHVOOUYyNFI0aVVoX20zM0ExLXJabzg0bnEzNlhPMGhtbHY3NVh5MDRGamtRR2RJUTdLZVFPNnhjYkdITzNWOWE1U0ZBTjVyTUtWSk9HYlVpUXNJWFFSdVFIRmlVS2lBTWlkZlFaUW9BNkNvVGVjT0JzS3NkT1Q3SlFXdFhkZw?oc=5"
+      },
+      "checkedAt": "2026-10-30T15:20:48.279Z",
+      "method": "news"
+    },
+    "nuke-test": {
+      "status": "normal",
+      "summary": "최근 14일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%ED%92%8D%EA%B3%84%EB%A6%AC%20%ED%95%B5%EC%8B%A4%ED%97%98%20%EC%A7%95%ED%9B%84&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:48.497Z",
+      "method": "news"
+    },
+    "missile": {
+      "status": "caution",
+      "summary": "최근 30일 관련 보도 65건(기준 1건↑ 주의, 자동 집계) · 예: 北, 국방부 회담 제안 6일 만에 탄도미사일 10여 발 발사‥\"250km 비행\" - MBC 뉴스",
+      "source": {
+        "label": "MBC 뉴스",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sS1BPQm9qUmluNDduTFRZa2ZMV2tvNHFkbmxzdTUxaEcxUUV3LW9TSkFjNmIzM2Q1Q1Job2ZZMDdtazZyZXRWaXFxM09vYm9LSEJTbEQ5Ung3RDRYMFRZWHNfeU9ZcFBvZWltLTBwdWhhcWhqZ2RJT9IBeEFVX3lxTE55RG9VNzN5VW1IdVlwVExtUDZ1Ui11aHdrTkhMU3RKMW4yQW9VY1M4RU5pa3B1Uy03c192dzM2RUhrNFZZVlIwdFdxeWFRTTJUWFhkUlQxMUw5czJTNUdHZ3BHX0JtZzNQeFJEeUI5ajRoNGRCWW1Ebg?oc=5"
+      },
+      "checkedAt": "2026-10-30T15:20:48.729Z",
+      "method": "news"
+    },
+    "gps": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=GPS%20%EA%B5%90%EB%9E%80%20%EB%B6%81%ED%95%9C%20%EC%84%9C%EB%B6%81%EB%8F%84%EC%84%9C&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:49.049Z",
+      "method": "news"
+    },
+    "taiwan-blockade": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%A4%91%EA%B5%AD%20%EB%8C%80%EB%A7%8C%20%EB%B4%89%EC%87%84%20%EC%84%A0%EC%96%B8%20%EA%B2%80%EB%AC%B8&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:49.261Z",
+      "method": "news"
+    },
+    "psyops": {
+      "status": "caution",
+      "summary": "최근 7일 관련 보도 4건(기준 2건↑ 주의, 자동 집계) · 예: 北, 대남 확성기 시험방송…접경지 주민들 \"아침부터 들려\"(종합) - 연합뉴스",
+      "source": {
+        "label": "연합뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kV3VXb1JhX3NWejBSOVVpWlVhdER5N0pmUHhUSGxIR1F5RG5GZTI4Y1ZZNkFrMloweXBrVG1HdHQxaDVjUmRBWmo2VDRORWRZcHdhaDlhMzlMY25KOE82NtIBYEFVX3lxTE9kV3VXb1JhX3NWejBSOVVpWlVhdER5N0pmUHhUSGxIR1F5RG5GZTI4Y1ZZNkFrMloweXBrVG1HdHQxaDVjUmRBWmo2VDRORWRZcHdhaDlhMzlMY25KOE82Ng?oc=5"
+      },
+      "checkedAt": "2026-10-30T15:20:49.361Z",
+      "method": "news"
+    },
+    "pla-drill": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%A4%91%EA%B5%AD%EA%B5%B0%20%EB%8C%80%EB%A7%8C%20%ED%8F%AC%EC%9C%84%20%ED%9B%88%EB%A0%A8&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:49.597Z",
+      "method": "news"
+    },
+    "us-china": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EB%AF%B8%EC%A4%91%20%EC%A0%95%EC%83%81%ED%9A%8C%EB%8B%B4%20%EC%B7%A8%EC%86%8C%20%EA%B5%B0%EC%82%AC%20%EC%B1%84%EB%84%90%20%EC%A4%91%EB%8B%A8&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:49.621Z",
+      "method": "news"
+    },
+    "usfk-role": {
+      "status": "normal",
+      "summary": "최근 14일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%A3%BC%ED%95%9C%EB%AF%B8%EA%B5%B0%20%EB%8C%80%EB%A7%8C%20%EC%9C%A0%EC%82%AC%EC%8B%9C%20%EC%B0%A8%EC%B6%9C&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:50.435Z",
+      "method": "news"
+    },
+    "amphib": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%A4%91%EA%B5%AD%20%EC%83%81%EB%A5%99%20%EC%A0%84%EB%A0%A5%20%EC%A7%91%EA%B2%B0%20%EB%8C%80%EB%A7%8C&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:50.638Z",
+      "method": "news"
+    },
+    "us-deploy": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EB%AF%B8%20%ED%95%AD%EB%AA%A8%20%EB%8C%80%EB%A7%8C%20%ED%95%B4%ED%98%91%20%EA%B8%B4%EA%B8%89%20%EB%B0%B0%EC%B9%98&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:50.702Z",
+      "method": "news"
+    },
+    "cg-inspection": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EC%A4%91%EA%B5%AD%20%ED%95%B4%EA%B2%BD%20%EC%A7%84%EB%A8%BC%20%EB%8C%80%EB%A7%8C%20%EC%8A%B9%EC%84%A0%20%EA%B2%80%EC%82%AC&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:51.014Z",
+      "method": "news"
+    },
+    "strait-shipping": {
+      "status": "normal",
+      "summary": "최근 7일 기준 관련 보도 없음(자동 집계)",
+      "source": {
+        "label": "Google 뉴스 검색",
+        "url": "https://news.google.com/search?q=%EB%8C%80%EB%A7%8C%ED%95%B4%ED%98%91%20%ED%95%B4%EC%9A%B4%20%EC%A0%84%EC%9F%81%EB%B3%B4%ED%97%98%EB%A3%8C%20%EC%9A%B0%ED%9A%8C&hl=ko&gl=KR&ceid=KR:ko"
+      },
+      "checkedAt": "2026-10-30T15:20:51.206Z",
+      "method": "news"
+    },
+    "adiz": {
+      "status": "normal",
+      "summary": "대만 국방부 최근 3회 발표 최대 군용기 6대(2026-10-30, ADIZ 진입 3) (기준 30대↑ 주의, 70대↑ 위험)",
+      "source": {
+        "label": "대만 국방부(MND) 공식 발표",
+        "url": "https://www.mnd.gov.tw/news/plaact/88096"
+      },
+      "checkedAt": "2026-10-30T15:20:57.093Z",
+      "method": "auto"
+    },
+    "us-advisory": {
+      "status": "normal",
+      "summary": "미 국무부 한국 여행경보 1단계",
+      "source": {
+        "label": "미 국무부",
+        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
+      },
+      "checkedAt": "2026-10-30T15:20:51.688Z",
+      "method": "auto"
+    },
+    "tw-advisory": {
+      "status": "normal",
+      "summary": "미 국무부 대만 여행경보 1단계",
+      "source": {
+        "label": "미 국무부",
+        "url": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"
+      },
+      "checkedAt": "2026-10-30T15:20:51.689Z",
+      "method": "auto"
+    },
+    "kospi": {
+      "status": "normal",
+      "summary": "KOSPI 5937.66 (전일 대비 -1.24%)",
+      "source": {
+        "label": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/%5EKS11/"
+      },
+      "checkedAt": "2026-10-30T15:20:51.693Z",
+      "method": "auto"
+    },
+    "krw": {
+      "status": "normal",
+      "summary": "원/달러 1335.3원 (2026-10-30, 전일 대비 -0.15%)",
+      "source": {
+        "label": "ECB 기준환율",
+        "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-krw.en.html"
+      },
+      "checkedAt": "2026-10-30T15:20:51.713Z",
+      "method": "auto"
+    },
+    "other-advisory": {
+      "status": "normal",
+      "summary": "영국 FCDO 한국 여행경보 상향 없음 (갱신 2026-05-14) · 다른 나라는 미확인",
+      "source": {
+        "label": "영국 FCDO",
+        "url": "https://www.gov.uk/foreign-travel-advice/south-korea"
+      },
+      "checkedAt": "2026-10-30T15:20:51.973Z",
+      "method": "auto"
+    },
+    "adiz-by-type": {
+      "status": "normal",
+      "summary": "대만 국방부 2026-10-30 발표: 군용기 6대(ADIZ 진입 3·중간선 넘음) · 군함 7척 · 공무선 1척 · 기종별 세부(전투기/무인기)는 발표문에 숫자 없음(첨부 그림만) · 최근 7회 평균 군용기 3.4대 (주의: 3일 내 군용기 30↑·진입 20↑·군함 15↑·무인기 10↑·연합순찰 / 위험: 군용기 70↑·군함 25↑)",
+      "source": {
+        "label": "대만 국방부(MND) 공식 발표",
+        "url": "https://www.mnd.gov.tw/news/plaact/88096"
+      },
+      "checkedAt": "2026-10-30T15:20:52.326Z",
+      "method": "auto"
+    },
+    "kinmen-matsui-pressure": {
+      "status": "normal",
+      "summary": "최근 14일 진먼·마쭈 해경 압박 보도 1일(기사 13건) · 최근: Taiwan chases 4 Chinese coast guard ships out of Kinmen waters - Taiwan News (기준: 4일↑ 또는 나포·승선 보도 → 주의, 보도 집계라 최대 주의)",
+      "source": {
+        "label": "Taiwan News",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZnBya2tRQ2dLNmxPdVUxNTNLU0VOWXlYdnF3X0JuYVVCNHVDeE0yTGVPcDdRV0RiMFhKUHlacVIwb3ExbS02X1RtSnVibVZtdGE2UTZQY3A?oc=5"
+      },
+      "checkedAt": "2026-10-30T15:20:52.807Z",
+      "method": "news"
+    },
+    "allies-tw-advisory": {
+      "status": "normal",
+      "summary": "일본: 위험정보 없음 · 호주: 일반 주의(1단계) · 영국: 여행 자제 권고 없음 (미국은 '미국의 대만 여행경보' 별도) · 주의: 1개국↑ 상향 / 위험: 2개국↑ 여행 재고·자제 이상",
+      "source": {
+        "label": "일본 외무성",
+        "url": "https://www.anzen.mofa.go.jp/info/pcinfectionspothazardinfo_008.html"
+      },
+      "checkedAt": "2026-10-30T15:20:53.296Z",
+      "method": "auto"
+    },
+    "jp-info": {
+      "status": "normal",
+      "summary": "일본 외무성 해외안전 최신 공지에 한국 위험정보 발령 없음",
+      "source": {
+        "label": "일본 외무성",
+        "url": "https://www.anzen.mofa.go.jp/"
+      },
+      "checkedAt": "2026-10-30T15:20:54.887Z",
+      "method": "auto"
+    },
+    "msa-exclusion": {
+      "status": "normal",
+      "summary": "중국 해사국 항행경고(4/4개 해사국 확인) 최근 7일 군사훈련·실탄사격 3건, 해역에 '台湾' 명시 0건 · 예: 浙航警973/26 东海 (주의: 대만해협 명시 1건↑ / 위험: '台湾岛' 주변 명시 또는 대만해협 3건↑)",
+      "source": {
+        "label": "중국 해사국(MSA) 항행경고",
+        "url": "https://www.msa.gov.cn/html/cnmsa/hxaq/article/2026/a9377407deb54d129b91973b9b430e0a.html"
+      },
+      "checkedAt": "2026-10-30T15:20:57.093Z",
+      "method": "auto"
+    }
+  },
+  "forecasts": [
+    {
+      "question": "2026년 말까지 북한의 남한 침공",
+      "probability": 5.1,
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/will-north-korea-invade-south-korea-before-2027",
+      "note": "거래량 약 $458K · 2026-10-30 기준 'Yes' 가격"
+    },
+    {
+      "question": "2026년 말까지 중국의 대만 침공",
+      "probability": 2.2,
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/will-china-invade-taiwan-before-2027",
+      "note": "거래량 약 $45,382K · 2026-10-30 기준 'Yes' 가격"
+    },
+    {
+      "question": "2027년 말까지 중국의 대만 침공",
+      "probability": 9.5,
+      "platform": "Polymarket",
+      "url": "https://polymarket.com/event/will-china-invade-taiwan-by-december-31-2027",
+      "note": "거래량 약 $3,568K · 2026-10-30 기준 'Yes' 가격"
+    }
+  ],
+  "events": [
+    {
+      "date": "2026-10-30",
+      "iso": "2026-10-30T12:45:00.000Z",
+      "title": "Taiwan chases 4 Chinese coast guard ships out of Kinmen waters - Taiwan News",
+      "detail": "Taiwan News 보도 · 진먼·마쭈 해상 압박 자동 수집(사실 확인 전)",
+      "level": "info",
+      "direction": "flat",
+      "region": "strait",
+      "source": {
+        "label": "Taiwan News",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9RZnBya2tRQ2dLNmxPdVUxNTNLU0VOWXlYdnF3X0JuYVVCNHVDeE0yTGVPcDdRV0RiMFhKUHlacVIwb3ExbS02X1RtSnVibVZtdGE2UTZQY3A?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-30",
+      "iso": "2026-10-30T12:27:50.000Z",
+      "title": "快新聞／還囂張廣播促統！中國4海警船多次騷擾金門海域 我海巡霸氣回擊 - 民視新聞網",
+      "detail": "民視新聞網 보도 · 진먼·마쭈 해상 압박 자동 수집(사실 확인 전)",
+      "level": "info",
+      "direction": "flat",
+      "region": "strait",
+      "source": {
+        "label": "民視新聞網",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBpN1dmT3E5WDZ1Ym02WUJ4dmFQdGFoVURXUzBLTWQzVm03UDRDTGNTWTdXTzlvOUNnUFBtOGl2SHNqekdEczd4akU5UV9PQjdPVVlFMmh5bmRVZFB1d1NxOQ?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "iso": "2026-10-29T08:38:43.000Z",
+      "title": "북한 대남 확성기 시험방송 재개 움직임…파주 주민 불안 - 경기신문",
+      "detail": "경기신문 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "경기신문",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBRaU1KcHRMeE9NMWxLYnh0UTNBVjJqTWpjSDhTSDYtMzA4eXRBNnliTnhoNC1NVzJkZWJ3MURuenZ5bVE5Xy1BN004RmI2dlpOSTJ0ODgzVGdRQklvMW1nanR3?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "iso": "2026-10-29T08:11:52.000Z",
+      "title": "[단독] 서해 어선 철수와 애기봉 포문 개방에 접경지 공포 -> 서해 뒤흔든 연쇄 포격과 미사일 발사에 충돌 위험 최고조 > 전쟁 예측 10대 군사 지표 대해부와 전면전의 실질 가능성 - 경제투데이",
+      "detail": "경제투데이 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "info",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "경제투데이",
+        "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFUXYyejZ5VVlFejVVTVdpcVI1eHZJSmF6M1RUWG1pTkQzdUJPcVBmb0ZFLVBVUENWVFZuNXlKVHZ5ZVJkWTFhcDlPRnlGcktGVzlSMHN1dTJnVW5TT3BidE8xRm5OTWph?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "iso": "2026-10-29T07:57:23.000Z",
+      "title": "北, 대남 확성기 시험방송…접경지 주민들 \"아침부터 들려\"(종합) - 연합뉴스",
+      "detail": "연합뉴스 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "연합뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9kV3VXb1JhX3NWejBSOVVpWlVhdER5N0pmUHhUSGxIR1F5RG5GZTI4Y1ZZNkFrMloweXBrVG1HdHQxaDVjUmRBWmo2VDRORWRZcHdhaDlhMzlMY25KOE82NtIBYEFVX3lxTE9kV3VXb1JhX3NWejBSOVVpWlVhdER5N0pmUHhUSGxIR1F5RG5GZTI4Y1ZZNkFrMloweXBrVG1HdHQxaDVjUmRBWmo2VDRORWRZcHdhaDlhMzlMY25KOE82Ng?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "iso": "2026-10-29T04:24:42.000Z",
+      "title": "한국 합참 \"북한, 동해상으로 단거리 탄도미사일 10여 발 발사\" - VOA 한국어 홈페이지",
+      "detail": "VOA 한국어 홈페이지 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "VOA 한국어 홈페이지",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44TGFrRUdnLXVJVGpkNzZqSTBRWUQ1WUpWU1NnRjNjN1R3VkVIQkNydWVDZExQX1dySXNzUnBIaTlpV19UOHMycFZJZk93V3VWMTBoX0FNWG1GOEE1T3FpY2wxeHcwbDRuMEw2a0M4SExXMEXSAXZBVV95cUxOYVk5cEF1UkQtWDBQZXBCdENPeXNqRVpybC1NNTBhRUZaU3FBN3ZoZmNrTFhxZTVIejkwRElIdW1hSUFqQmFmSnVWVV9jZ2lEUTduY3UzeHQ5bWd4WUhxWEZTWk02d0hTY21kazRJN2J6NnhmV1Z3?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "iso": "2026-10-29T03:40:41.000Z",
+      "title": "北, 국방부 회담 제안 6일 만에 탄도미사일 10여 발 발사‥\"250km 비행\" - MBC 뉴스",
+      "detail": "MBC 뉴스 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "MBC 뉴스",
+        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9sS1BPQm9qUmluNDduTFRZa2ZMV2tvNHFkbmxzdTUxaEcxUUV3LW9TSkFjNmIzM2Q1Q1Job2ZZMDdtazZyZXRWaXFxM09vYm9LSEJTbEQ5Ung3RDRYMFRZWHNfeU9ZcFBvZWltLTBwdWhhcWhqZ2RJT9IBeEFVX3lxTE55RG9VNzN5VW1IdVlwVExtUDZ1Ui11aHdrTkhMU3RKMW4yQW9VY1M4RU5pa3B1Uy03c192dzM2RUhrNFZZVlIwdFdxeWFRTTJUWFhkUlQxMUw5czJTNUdHZ3BHX0JtZzNQeFJEeUI5ajRoNGRCWW1Ebg?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "iso": "2026-10-22T02:22:00.000Z",
+      "title": "군사분계선 침범 막았더니 “도발”…北 비난에 韓 “정당한 방어” [핫이슈] - 나우뉴스",
+      "detail": "나우뉴스 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "나우뉴스",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VZzlMYktGeGllWmFEQ2ZJRUo5NXVWa1o2R0ZKeEt3UFBzeC1ULWZuWkJ0TW1heGJNaV9NNXp5cWY3SXhsVzRHVVUwVGY2M0xxQ2ZNMU1wLTlYM2NsUlNvd2VKX1BqeTlhMjlxYVhGc20?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-20",
+      "iso": "2026-10-20T15:51:59.000Z",
+      "title": "北, 사흘새 60회 경고 사격 받고도 MDL 계속 넘어왔다 - 조선일보",
+      "detail": "조선일보 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "조선일보",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSWh4d0NzY1NEVFZGcHVOOUYyNFI0aVVoX20zM0ExLXJabzg0bnEzNlhPMGhtbHY3NVh5MDRGamtRR2RJUTdLZVFPNnhjYkdITzNWOWE1U0ZBTjVyTUtWSk9HYlVpUXNJWFFSdVFIRmlVS2lBTWlkZlFaUW9BNkNvVGVjT0JzS3NkT1Q3SlFXdFhkZw?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-10",
+      "iso": "2026-10-10T07:00:00.000Z",
+      "title": "UN서 벌어진 남북한 ‘설전’…UN 대사, ‘DMZ 지뢰’ 사과 요구에 북한 발끈 - KBS 뉴스",
+      "detail": "KBS 뉴스 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "KBS 뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9SUkFWSjNiMDRndElqZk9sejhxTHRhVTJwMkVEOS1kbG82TWdRdWRiei1OamxseVhnbjdhOUlaSDludHZlVF9mamJ2N3RDeEF2ODNodGVIVjVFREU?oc=5"
+      }
+    },
+    {
+      "date": "2026-10-01",
+      "iso": "2026-10-01T07:00:00.000Z",
+      "title": "휴전‘선’은 없다, 비무장지대 지뢰 사고와 남북의 모호한 경계 - 민중의소리",
+      "detail": "민중의소리 보도 · 자동 수집 헤드라인(사실 확인 전)",
+      "level": "caution",
+      "direction": "flat",
+      "region": "korea",
+      "source": {
+        "label": "민중의소리",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4xdHduNkkyWUxCLUVpaGtZX2lnRkQyaElQdHRTUXY4YTY5d3hrYlY4N1lLQldUWmpDYkx2cU90VnB5RmdKeWMtT3h0NA?oc=5"
+      }
+    }
+  ]
+}
