@@ -1,8 +1,10 @@
 import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 import './styles.css';
 import { indicators, applyWarIndicators } from './data/indicators';
 
 inject();
+injectSpeedInsights();
 import { events, forecasts, applyWarEvents } from './data/events';
 import { fetchLive, isNewer } from './live';
 import { principles } from './data/sources';

@@ -1,11 +1,13 @@
 // 허브 클라이언트 JS(최소): 본문은 빌드 시 HTML에 있음. 최신 스냅샷(/api/live)이 더 새로우면 그걸로 다시 그림. 오래됐으면 표시.
 import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 import '../styles.css';
 import './hub.css';
 import { fetchLive, isNewer } from '../live';
 
 // Hub home and module pages (cyber, supply, ai, disaster, crypto) share this entry.
 inject();
+injectSpeedInsights();
 
 function staleCheck() {
   const t = document.getElementById('generated-at')?.getAttribute('datetime');
